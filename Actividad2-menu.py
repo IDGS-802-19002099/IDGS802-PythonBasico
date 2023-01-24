@@ -41,7 +41,7 @@ def main():
         
         while op < 5:
             op = int(input(
-                "Ingresa lo que deseas hacer (1-Suma, 2-Resta, 3-Multiplicacion,4-Division: )"))
+                "Ingresa lo que deseas hacer (1-Suma, 2-Resta, 3-Multiplicacion,4-Division, 5-Salir: )"))
             if op == 1:
                 obj.suma()
             elif op == 2:
